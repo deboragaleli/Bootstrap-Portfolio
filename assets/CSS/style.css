@@ -1,0 +1,126 @@
+.navbar {
+  background-color: #2C3E50;
+  border-bottom: 2px solid #ccc;
+}
+
+.navbar-brand {
+  font-family: 'Passion One', cursive;
+  color: #FFF;
+  font-size: 60px;
+  margin-left: 40px;
+}
+
+.main-row {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 630px) {
+  .main-row {
+    margin-left: 0;
+  }
+}
+
+.navbar-nav {
+  font-family: 'Passion One', cursive;
+  color: #FFF;
+  font-size: 30px;
+  margin-right: 150px;
+}
+ 
+.nav-item i {
+  display: block;
+  margin-top: 20px;
+}
+
+a {
+  color: #fff;
+}
+/*
+* — Hover State —
+*/
+a:hover {
+  color: #D3D3D3;
+}
+
+body {
+  background-color: #E94B3C;
+}
+
+.container {
+ background-color: #D3D3D3; 
+ padding: 60px;
+ margin: 40px auto;
+ box-sizing: border-box;
+ border: 1px solid #DDDDDD;
+ margin-bottom: 100px;
+}
+ 
+.figure-img {
+  box-sizing: border-box;
+  border: 1px solid #2C3E50;
+  /*
+* — Rounded border - two values —
+*/
+  border-radius: 50px 20px;
+}
+
+
+p {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px;
+}
+
+.footer {
+  background-color: #2C3E50;
+  border-top: 1px solid #DDDDDD;
+  text-align: center;
+  color: #fff;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  /*
+* — Start Portfolio style —
+*/
+
+h1 {
+  font-family: 'Passion One', cursive;
+  color: #2C3E50;
+  font-size: 45px;
+  border-bottom: 2px solid #2C3E50;
+  margin-bottom: 30px;
+}
+
+.text-image {
+    /*
+* — Hexidecimal color #2C3E50 to rgb + 0.5 opacity —
+*/
+  background-color: rgb(44,62,80,0.5);
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  bottom: 10px;
+}
+
+.image-container {
+  width: 100%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+}
